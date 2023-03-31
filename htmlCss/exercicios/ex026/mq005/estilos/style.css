@@ -7,11 +7,70 @@
 }
 
 body, html {
-    background-color: lightgray;
+    background-color: #DCC8E3;
 }
 
 header {
-    background-color: #949494;
+    background-color: #ACB2FA;
     width: 100vw;
     text-align: center;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: #7c362c;
+}
+
+i#burguer {
+    background-color: #525575;
+    width: 100vw;
+    color: white;
+    padding: 10px;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: #7c362c;
+    cursor: pointer;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ff6c59b7;
+    color: #3c4357;
+    text-align: center;
+    border: 2px solid #DCC8E3;
+}
+
+menu > ul > li > a:hover {
+    background-color: #615864;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
